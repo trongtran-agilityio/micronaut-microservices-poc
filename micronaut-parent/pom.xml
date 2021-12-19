@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pl.altkom.asc.lab.micronaut.poc</groupId>
+    <artifactId>micronaut-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <name>All Services</name>
+
+    <modules>
+        <module>../agent-portal-gateway</module>
+        <module>../auth-service</module>
+        <module>../chat-service</module>
+        <module>../command-bus-api</module>
+        <module>../dashboard-service</module>
+        <module>../dashboard-service-api</module>
+        <module>../documents-service</module>
+        <module>../documents-service-api</module>
+        <module>../payment-service</module>
+        <module>../payment-service-api</module>
+        <module>../policy-search-service</module>
+        <module>../policy-search-service-api</module>
+        <module>../pricing-service</module>
+        <module>../pricing-service-api</module>
+        <module>../product-service</module>
+        <module>../product-service-api</module>
+    </modules>
+
+</project>
